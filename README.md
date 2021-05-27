@@ -1,2 +1,2 @@
-# Homework-7-Selenium-WebDriver
-Homework 7 Selenium WebDriver 
+# 7-Selenium-WebDriver
+7 Selenium WebDriver 
