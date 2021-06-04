@@ -9,7 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException
 
 
-# Test in Chrome
+# Test in browser Chrome
 
 class ChromeSearch(unittest.TestCase):
 
@@ -75,10 +75,10 @@ class ChromeSearch(unittest.TestCase):
         driver.implicitly_wait(3)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser.
+        self.driver.quit()  # Close the browser chrome.
 
 
-# Test in Firefox
+# Test in browser Firefox
 
 
 class FirefoxSearch(unittest.TestCase):
@@ -143,10 +143,10 @@ class FirefoxSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser.
+        self.driver.quit()  # Close the browser Firefox.
 
 
-# Test in Edge
+# Test in browser Edge
 
 class EdgeSearch(unittest.TestCase):
     def setUp(self):
@@ -183,10 +183,10 @@ class EdgeSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser.
+        self.driver.quit()  # Close the browser Edge.
 
 
-# Test in Opera
+# Test in browser Opera
 
 class OperaSearch(unittest.TestCase):
     def setUp(self):
@@ -223,7 +223,7 @@ class OperaSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser.
+        self.driver.quit()  # Close the browser Opera.
 
 
 if __name__ == "__main__":
