@@ -46,7 +46,7 @@ class ChromeSearch(unittest.TestCase):
         driver_chrome.find_element(By.XPATH, '//a[contains(text(),"Home")]').click()
         time.sleep(1)
 
-    def test_search_wordpress_chrome_1120x550(self):
+    def test_search_wordpress_chrome_1120x550(self):                 # другой размер окна 1120x550
         driver_chrome = self.driver
         driver_chrome.set_window_size(1120, 550)
         driver_chrome.get('https://qasvus.wordpress.com')
@@ -114,7 +114,7 @@ class FirefoxSearch(unittest.TestCase):
         driver_firefox.find_element(By.XPATH, '//a[contains(text(),"Home")]').click()
         time.sleep(1)
 
-    def test_search_wordpress_firefox_1120x850(self):
+    def test_search_wordpress_firefox_1120x850(self):                 # другой размер окна 1120x850
         driver_firefox = self.driver
         driver_firefox.set_window_size(1120, 850)
         driver_firefox.get('https://qasvus.wordpress.com')
