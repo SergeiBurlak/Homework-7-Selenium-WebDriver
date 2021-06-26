@@ -46,7 +46,7 @@ class ChromeSearch(unittest.TestCase):
         driver_chrome.find_element(By.XPATH, '//a[contains(text(),"Home")]').click()
         time.sleep(1)
 
-    def test_search_wordpress_chrome_1120x550(self):                 # другой размер окна 1120x550
+    def test_search_wordpress_chrome_1120x550(self):                 # Другой размер окна 1120x550
         driver_chrome = self.driver
         driver_chrome.set_window_size(1120, 550)
         driver_chrome.get('https://qasvus.wordpress.com')
@@ -75,7 +75,7 @@ class ChromeSearch(unittest.TestCase):
         driver.implicitly_wait(3)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser chrome.
+        self.driver.quit()  # Close the browser Chrome. Закрваем браузер Chrome
 
 
 # Test in browser Firefox
@@ -183,7 +183,7 @@ class EdgeSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Edge.
+        self.driver.quit()  # Close the browser Edge. Закрваем браузер Edge
 
 
 # Test in browser Opera
@@ -223,7 +223,7 @@ class OperaSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Opera.
+        self.driver.quit()  # Close the browser Opera. Закрываем браузер Opera.
 
 
 if __name__ == "__main__":
