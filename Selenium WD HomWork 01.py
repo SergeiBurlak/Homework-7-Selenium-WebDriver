@@ -75,10 +75,10 @@ class ChromeSearch(unittest.TestCase):
         driver.implicitly_wait(3)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Chrome. Закрваем браузер Chrome.
+        self.driver.quit()  # Close the browser Chrome.  Закрваем браузер Chrome.
 
 
-# Test in browser Firefox.
+# Test in browser Firefox..
 
 
 class FirefoxSearch(unittest.TestCase):
