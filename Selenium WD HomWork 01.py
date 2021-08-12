@@ -75,7 +75,7 @@ class ChromeSearch(unittest.TestCase):
         driver.implicitly_wait(3)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Chrome.  Закрваем браузер Chrome.
+        self.driver.quit()  # Close the browser Chrome.  Закрываем браузер Chrome.
 
 
 # Test in browser Firefox..
@@ -143,7 +143,7 @@ class FirefoxSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Firefox.
+        self.driver.quit()  # Close the browser Firefox. Закрываем браузер Firefox.
 
 
 # Test in browser Edge.
@@ -183,7 +183,7 @@ class EdgeSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Edge. Закрваем браузер Edge.
+        self.driver.quit()  # Close the browser Edge. Закрsваем браузер Edge.
 
 
 # Test in browser Opera.
