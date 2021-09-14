@@ -146,7 +146,7 @@ class FirefoxSearch(unittest.TestCase):
         self.driver.quit()  # Close the browser Firefox.       Закрываем браузер Firefox.
 
 
-# Test in browser Edge.
+# Test in browser Edge..
 
 class EdgeSearch(unittest.TestCase):
     def setUp(self):
@@ -183,10 +183,10 @@ class EdgeSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Edge. Закрываем браузер Edge.
+        self.driver.quit()  # Close the browser Edge. Закрываем браузер Edge..
 
 
-# Test in browser Opera.
+# Test in browser Opera..
 
 class OperaSearch(unittest.TestCase):
     def setUp(self):
@@ -223,7 +223,7 @@ class OperaSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Opera. Закрываем браузер Opera.
+        self.driver.quit()  # Close the browser Opera. Закрываем браузер Opera..
 
 
 if __name__ == "__main__":
