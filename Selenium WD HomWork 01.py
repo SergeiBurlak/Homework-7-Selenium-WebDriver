@@ -223,7 +223,7 @@ class OperaSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()  # Close the browser Opera. Закрываем браузер Opera..
+        self.driver.quit()  # Close the browser Opera. Закрываем браузер Opera.
 
 
 if __name__ == "__main__":
