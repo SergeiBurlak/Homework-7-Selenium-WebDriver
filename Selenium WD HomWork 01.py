@@ -143,7 +143,7 @@ class FirefoxSearch(unittest.TestCase):
         time.sleep(1)
 
     def tearDown(self):
-        self.driver.quit()                 # Close the browser Firefox.       Закрываем браузер Firefox.
+        self.driver.quit()                 # Close the browser Firefox.      Закрываем браузер Firefox.
 
 
 # Test in browser Edge..
